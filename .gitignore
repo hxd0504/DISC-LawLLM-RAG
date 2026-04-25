@@ -1,0 +1,12 @@
+.*/
+_*/
+models/
+data/DISC-Law-SFT/
+rag/law_db/
+*.bin
+*.safetensors
+*.pt
+*.pth
+__pycache__/
+*.pyc
+.env

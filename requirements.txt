@@ -1,0 +1,13 @@
+torch
+transformers
+accelerate
+colorama
+cpm_kernels
+sentencepiece
+streamlit
+transformers_stream_generator
+chromadb
+sentence-transformers
+neo4j
+modelscope
+cn2an
