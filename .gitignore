@@ -3,6 +3,8 @@ _*/
 models/
 data/DISC-Law-SFT/
 rag/law_db/
+finetune/data/
+saves/
 *.bin
 *.safetensors
 *.pt
