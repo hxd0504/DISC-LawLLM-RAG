@@ -192,10 +192,11 @@ streamlit run web_demo.py
 | Version | Module | Status |
 |---------|--------|--------|
 | v0.1 | Retrieval + KG Module: Vector RAG, Legal KG, GraphRAG | Done |
-| v0.2 | Retrieval Evaluation: Recall@k / MRR / Evidence Coverage | Planned |
-| v0.3 | LoRA SFT / RAG-SFT with DISC-Law-SFT Pair & Triplet | Planned |
-| v0.4 | vLLM + FastAPI Service Deployment | Planned |
-| v0.5 | End-to-End Evaluation and Demo Release | Planned |
+| v0.2 | LoRA RAG-SFT Pilot: Qwen2.5-7B + LLaMA-Factory + 5K Triplet | Done |
+| v0.3 | Evidence Quality Control + GraphRAG Reranking | Planned |
+| v0.4 | Retrieval Evaluation: Recall@k / MRR / Evidence Coverage | Planned |
+| v0.5 | vLLM + FastAPI Service Deployment | Planned |
+| — | Full SFT | Optional, not on main roadmap |
 
 ## 当前局限
 
