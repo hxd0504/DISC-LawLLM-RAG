@@ -1,0 +1,15 @@
+vllm:
+  base_url: "http://localhost:8000/v1"
+  model: "Qwen/Qwen2.5-7B-Instruct"
+  # lora_adapter: "saves/qwen2.5-7b/lora/law_rag_sft_5k"  # optional
+
+retriever:
+  chroma_dir: "rag/law_db"
+  top_k: 5
+  neo4j_uri: "bolt://localhost:7687"
+  neo4j_user: "neo4j"
+  neo4j_password: "12345678"
+
+server:
+  host: "0.0.0.0"
+  port: 8001
